@@ -1,5 +1,10 @@
 #home{
-  padding: 3rem 3rem;
+  padding: 8rem 8rem;
+  border: 3px solid red;
+  // display: grid;
+  // grid-gap: 6rem;
+  // grid-template-rows: repeat(auto,miniax(100px,1fr));
+  // grid-template-rows: 1fr 1fr 1fr;
 }
 
 blockquote{
@@ -7,3 +12,17 @@ blockquote{
   font-size: 2rem;
 }
 
+#title_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.other_titles{
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.podcast_title{
+  font-size: 1rem;
+  color: red;
+}
