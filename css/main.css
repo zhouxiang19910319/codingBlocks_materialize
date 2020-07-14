@@ -9036,14 +9036,41 @@ blockquote {
           flex-direction: column;
 }
 
+#recommendation_div {
+  width: 50%;
+}
+
 .other_titles {
   margin-top: 6rem;
   margin-bottom: 2rem;
 }
 
-.podcast_title {
-  font-size: 1rem;
-  color: red;
+.playlist {
+  width: 50%;
+}
+
+.collapsible-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.collapsible-body {
+  background-color: #f4f4f4;
+}
+
+.collapsible-body > ul > li {
+  font-size: 1.3rem;
+  padding: .5rem .5rem;
+}
+
+.playlist_inner_titles {
+  display: block;
+}
+
+.waves-effect .waves-teal .waves-ripple {
+  /* The alpha value allows the text and background color
+   of the button to still show through. */
+  background-color: #00eaff;
 }
 
 #home {
@@ -9066,14 +9093,41 @@ blockquote {
           flex-direction: column;
 }
 
+#recommendation_div {
+  width: 50%;
+}
+
 .other_titles {
   margin-top: 6rem;
   margin-bottom: 2rem;
 }
 
-.podcast_title {
-  font-size: 1rem;
-  color: red;
+.playlist {
+  width: 50%;
+}
+
+.collapsible-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.collapsible-body {
+  background-color: #f4f4f4;
+}
+
+.collapsible-body > ul > li {
+  font-size: 1.3rem;
+  padding: .5rem .5rem;
+}
+
+.playlist_inner_titles {
+  display: block;
+}
+
+.waves-effect .waves-teal .waves-ripple {
+  /* The alpha value allows the text and background color
+   of the button to still show through. */
+  background-color: #00eaff;
 }
 
 html {

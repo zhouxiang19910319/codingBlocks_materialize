@@ -32,3 +32,15 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   var instances = M.Carousel.init(elems, options);
 });
+
+// Collapsible
+document.addEventListener('DOMContentLoaded', function () {
+  var elem = document.querySelector('.collapsible.expandable');
+  var instance = M.Collapsible.init(elem, {
+    accordion: false
+  });
+  const options = {
+    inDuration: 200,
+    outDuration: 200
+  }
+});
