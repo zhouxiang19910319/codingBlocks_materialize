@@ -44,3 +44,21 @@ document.addEventListener('DOMContentLoaded', function () {
     outDuration: 200
   }
 });
+
+// Floating action button
+document.addEventListener('DOMContentLoaded', function () {
+  var elems = document.querySelectorAll('.fixed-action-btn');
+  const options = {
+    hoverEnabled: false
+  }
+  var instances = M.FloatingActionButton.init(elems, options);
+});
+
+//ToolTips
+document.addEventListener('DOMContentLoaded', function () {
+  var elems = document.querySelectorAll('.tooltipped');
+  const options = {
+    position : 'left'
+  }
+  var instances = M.Tooltip.init(elems, options);
+});

@@ -1,15 +1,11 @@
 #home{
   padding: 8rem 8rem;
   border: 3px solid red;
-  // display: grid;
-  // grid-gap: 6rem;
-  // grid-template-rows: repeat(auto,miniax(100px,1fr));
-  // grid-template-rows: 1fr 1fr 1fr;
 }
 
 blockquote{
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #title_div {
@@ -17,12 +13,16 @@ blockquote{
   flex-direction: column;
 }
 
+#title_card{
+  display: inline-block;
+}
+
 #recommendation_div{
   width: 50%;
 }
 
 .other_titles{
-  margin-top: 6rem;
+  margin-top: 10rem;
   margin-bottom: 2rem;
 }
 
@@ -50,8 +50,9 @@ blockquote{
 }
 
 .waves-effect .waves-teal .waves-ripple {
-   /* The alpha value allows the text and background color
-   of the button to still show through. */
     background-color: #00eaff;
   }
           
+.sub_btn{
+  background-color: white;
+}

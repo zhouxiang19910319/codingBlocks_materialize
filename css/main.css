@@ -9023,7 +9023,7 @@ html {
 
 blockquote {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #title_div {
@@ -9036,12 +9036,16 @@ blockquote {
           flex-direction: column;
 }
 
+#title_card {
+  display: inline-block;
+}
+
 #recommendation_div {
   width: 50%;
 }
 
 .other_titles {
-  margin-top: 6rem;
+  margin-top: 10rem;
   margin-bottom: 2rem;
 }
 
@@ -9068,9 +9072,11 @@ blockquote {
 }
 
 .waves-effect .waves-teal .waves-ripple {
-  /* The alpha value allows the text and background color
-   of the button to still show through. */
   background-color: #00eaff;
+}
+
+.sub_btn {
+  background-color: white;
 }
 
 #home {
@@ -9080,7 +9086,7 @@ blockquote {
 
 blockquote {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #title_div {
@@ -9093,12 +9099,16 @@ blockquote {
           flex-direction: column;
 }
 
+#title_card {
+  display: inline-block;
+}
+
 #recommendation_div {
   width: 50%;
 }
 
 .other_titles {
-  margin-top: 6rem;
+  margin-top: 10rem;
   margin-bottom: 2rem;
 }
 
@@ -9125,9 +9135,11 @@ blockquote {
 }
 
 .waves-effect .waves-teal .waves-ripple {
-  /* The alpha value allows the text and background color
-   of the button to still show through. */
   background-color: #00eaff;
+}
+
+.sub_btn {
+  background-color: white;
 }
 
 html {
@@ -9240,4 +9252,38 @@ html {
   font-size: 20px;
   line-height: 2.4rem;
   letter-spacing: .05rem;
+}
+
+.highlight_min {
+  color: black;
+  background-color: yellow;
+  background-position: 0 0.2em;
+  -webkit-box-shadow: inset 0 .7em 0 0 #f4f4f4;
+          box-shadow: inset 0 .7em 0 0 #f4f4f4;
+  cursor: default;
+}
+
+.highlight_full {
+  color: black;
+  background-color: yellow;
+  cursor: default;
+}
+
+#Michael_Three {
+  background-image: url("../../img/git.png");
+  background-position: left bottom;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: 300px;
+  /* Resize the background image to cover the entire container */
+}
+
+#background_text_MO {
+  color: #B7F0F5;
+  font-size: 3rem;
+  -webkit-transform: rotate(340deg);
+          transform: rotate(340deg);
+  margin-top: -2.5rem;
+  margin-right: -4rem;
 }

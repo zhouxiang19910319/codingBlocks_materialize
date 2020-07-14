@@ -92,3 +92,33 @@
   line-height: 2.4rem;
   letter-spacing: .05rem;
 }
+
+.highlight_min{
+  color: black;
+  background-color: yellow;
+  background-position: 0 0.2em;
+  box-shadow: inset 0 .7em 0 0 #f4f4f4;
+  cursor: default;
+}
+
+.highlight_full{
+  color: black;
+  background-color: yellow;
+  cursor: default;
+}
+
+// Individually styling carousel page
+#Michael_Three{
+  background-image: url("../../img/git.png");
+  background-position: left bottom; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 300px; /* Resize the background image to cover the entire container */
+} 
+
+#background_text_MO{
+  color:$watermark-color;
+  font-size:3rem;
+  transform:rotate(340deg);
+  margin-top: -2.5rem;
+  margin-right: -4rem;
+}
