@@ -9098,6 +9098,20 @@ blockquote {
   font-size: 1.5rem;
 }
 
+.sidebar_titles {
+  font-weight: 500;
+}
+
+#j_logo {
+  height: 200px;
+  cursor: pointer;
+}
+
+#p_logo {
+  height: 100px;
+  cursor: pointer;
+}
+
 #home {
   padding: 8rem 8rem;
   border: 3px solid red;
@@ -9178,6 +9192,20 @@ blockquote {
 .card_link {
   font-weight: 700;
   font-size: 1.5rem;
+}
+
+.sidebar_titles {
+  font-weight: 500;
+}
+
+#j_logo {
+  height: 200px;
+  cursor: pointer;
+}
+
+#p_logo {
+  height: 100px;
+  cursor: pointer;
 }
 
 html {
