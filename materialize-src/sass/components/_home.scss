@@ -11,15 +11,17 @@ blockquote{
 #title_div {
   display: flex;
   flex-direction: column;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
 }
 
 #title_card{
   display: inline-block;
 }
 
-#recommendation_div{
-  width: 50%;
-}
+// #episode_div{
+//   width: 50%;
+// }
 
 .other_titles{
   margin-top: 10rem;
@@ -50,9 +52,42 @@ blockquote{
 }
 
 .waves-effect .waves-teal .waves-ripple {
-    background-color: #00eaff;
+    // background-color: #00eaff;
+    // background-color: #0c8d99;
+    // background-color: #00001e;
   }
-          
+
 .sub_btn{
   background-color: white;
+}
+
+#articles_main_grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+  // grid-gap: 3rem;
+  // padding-right : 1rem;
+}
+
+.articles_sub_item{
+  margin-top: 0;
+  margin-bottom: 6rem;
+  width: 500px;
+}
+
+.article_card_title{
+  // font-weight: 700;
+  // font-size: 5rem;
+  // border-left:10px solid $secondary-color;
+}
+
+.article_summary{
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: .06rem;
+  line-height: 2rem;
+}
+
+.card_link {
+  font-weight: 700;
+  font-size: 1.5rem;
 }

@@ -51,7 +51,7 @@
 
 // ABOUT US Section
 
-.card{
+.business_card{
   padding:3rem 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
@@ -108,17 +108,17 @@
 }
 
 // Individually styling carousel page
-#Michael_Three{
-  background-image: url("../../img/git.png");
-  background-position: left bottom; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 300px; /* Resize the background image to cover the entire container */
-} 
+// #Michael_Three{
+//   background-image: url("../../img/1.png");
+//   background-position: left bottom; 
+//   background-repeat: no-repeat; 
+//   background-size: contain;
+// } 
 
-#background_text_MO{
-  color:$watermark-color;
-  font-size:3rem;
-  transform:rotate(340deg);
-  margin-top: -2.5rem;
-  margin-right: -4rem;
-}
+// #background_text_MO{
+//   color:$watermark-color;
+//   font-size:3rem;
+//   transform:rotate(340deg);
+//   margin-top: -2.5rem;
+//   margin-right: -4rem;
+// }
