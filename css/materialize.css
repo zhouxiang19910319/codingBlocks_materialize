@@ -4905,7 +4905,7 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
-  color: #1edced;
+  color: #022444;
 }
 
 .card .card-reveal {
@@ -9121,7 +9121,6 @@ blockquote {
 
 .review_card {
   width: 500px;
-  padding: 1rem;
   -webkit-box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
   -webkit-transition: .2s;
@@ -9147,17 +9146,20 @@ blockquote {
 
 .review_card_title {
   margin-bottom: 0;
-  margin-top: .5rem;
+  margin-top: 0;
+  border: 1px solid red;
+  color: black;
 }
 
 .review_date {
-  margin-bottom: 0;
-  margin-top: 0;
+  border: 1px solid red;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 .review_p {
   font-size: 1.3rem;
-  letter-spacing: .1rem;
+  letter-spacing: .05rem;
   line-height: 2rem;
 }
 
@@ -9165,6 +9167,7 @@ blockquote {
   font-size: 1.3rem;
   font-weight: 300;
   letter-spacing: .1rem;
+  border: 1px solid orangered;
 }
 
 .highlight_min_reviewSection {
