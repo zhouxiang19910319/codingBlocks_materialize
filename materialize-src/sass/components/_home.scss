@@ -19,9 +19,6 @@ blockquote{
   display: inline-block;
 }
 
-// #episode_div{
-//   width: 50%;
-// }
 
 .other_titles{
   margin-top: 10rem;
@@ -51,12 +48,6 @@ blockquote{
   display: block;
 }
 
-.waves-effect .waves-teal .waves-ripple {
-    // background-color: #00eaff;
-    // background-color: #0c8d99;
-    // background-color: #00001e;
-  }
-
 .sub_btn{
   background-color: white;
 }
@@ -64,20 +55,12 @@ blockquote{
 #articles_main_grid{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
-  // grid-gap: 3rem;
-  // padding-right : 1rem;
 }
 
 .articles_sub_item{
   margin-top: 0;
   margin-bottom: 6rem;
   width: 500px;
-}
-
-.article_card_title{
-  // font-weight: 700;
-  // font-size: 5rem;
-  // border-left:10px solid $secondary-color;
 }
 
 .article_summary{
@@ -103,4 +86,57 @@ blockquote{
 #p_logo{
   height:100px;
   cursor: pointer;
+}
+
+
+// REVIEW SECTION
+#card_stack_wrapper{
+  display:flex;
+  margin-top: 8rem;
+}
+.review_card{
+  width: 500px;
+  padding: 1rem;
+  box-shadow: 4px 4px 12px 2px rgba(black,.2);
+  transition: .2s;
+  display: grid;
+}
+.review_card:not(:first-child){
+  margin-left: -16rem;
+}
+.review_card:hover{
+  transform:translateY(-6rem);
+}
+.review_card:hover ~ .review_card,
+.review_card:focus-within ~ .review_card{
+    transform:translateX(16rem);
+}
+
+.review_card_title{
+  margin-bottom: 0;
+  margin-top: .5rem;
+}
+
+.review_date{
+  // border: 1px solid red;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.review_p{
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+  line-height: 2rem;
+}
+.reviewer_name{
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing:.1rem;
+}
+.highlight_min_reviewSection{
+  color: black;
+  background-color: yellow;
+  background-position: 0 0.2em;
+  box-shadow: inset 0 .99em 0 0 #ffffff;
+  cursor: default;
 }
