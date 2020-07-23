@@ -1,8 +1,37 @@
+
+
+/*
+HOME GRID
+*/
+
 #home{
   padding: 8rem 8rem;
-  border: 3px solid red;
+
+  // display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: repeat(4,1fr);
+  grid-gap:4rem;
 }
 
+#title_div,#articles_div,#review_div{
+  grid-column: 1/-1;
+}
+#episode_div{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+#search_field,#affiliate_field,#sponsor_field{
+  grid-column:2/3;
+  grid-row: 2/3;
+}
+
+.home_grid_child{
+  border: 1px solid red;
+}
+
+/*
+Big Title Section
+*/
 blockquote{
   font-weight: 300;
   font-size: 1.5rem;
@@ -13,22 +42,22 @@ blockquote{
   flex-direction: column;
   padding-left: 3rem;
   padding-bottom: 3rem;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #title_card{
   display: inline-block;
 }
 
-
+/*Playlist section*/
 .other_titles{
-  margin-top: 10rem;
-  margin-bottom: 2rem;
+  // margin-top: 10rem;
+  // margin-bottom: 2rem;
 }
 
 
-.playlist{
-  width:50%;
-}
 
 .collapsible-header{
   font-size: 1.5rem;
@@ -92,15 +121,14 @@ blockquote{
 // REVIEW SECTION
 #card_stack_wrapper{
   display:flex;
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 .review_card{
   width: 500px;
-  // padding: 1rem;
+  padding: 3rem;
   box-shadow: 4px 4px 12px 2px rgba(black,.2);
   transition: .2s;
   display: grid;
-  // border: 1px solid $primary-color;
 }
 .review_card:not(:first-child){
   margin-left: -16rem;
@@ -116,12 +144,13 @@ blockquote{
 .review_card_title{
   margin-bottom: 0;
   margin-top: 0;
-  border: 1px solid red;
-  color: black;
+}
+
+.review_card_title a{
+  color: inherit;
 }
 
 .review_date{
-  border: 1px solid red;
   margin: 0 0;
   padding: 0 0;
 }
@@ -135,7 +164,6 @@ blockquote{
   font-size: 1.3rem;
   font-weight: 300;
   letter-spacing:.1rem;
-  border: 1px solid orangered;
 }
 .highlight_min_reviewSection{
   color: black;
