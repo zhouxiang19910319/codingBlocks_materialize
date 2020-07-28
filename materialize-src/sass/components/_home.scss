@@ -1,11 +1,36 @@
 /*
+Nav Bar
+*/
+.nav-extended {
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+/*
 HOME GRID
 */
-
 #home {
   padding: 8rem 8rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2rem;
+}
+#title_div {
+  grid-column: 1/-1;
 }
 
+#episode_div {
+  grid-column: 1/2;
+}
+#right_side_banner {
+  grid-column: 2/-1;
+}
+#articles_div {
+  grid-column: 1/-1;
+}
+
+#review_div {
+  grid-column: 1/-1;
+}
 /*
 Big Title Section
 */
@@ -145,4 +170,17 @@ blockquote {
   background-position: 0 0.2em;
   box-shadow: inset 0 0.99em 0 0 #ffffff;
   cursor: default;
+}
+
+// media Query
+@media all and (max-width: 992px) {
+  #episode_div {
+    grid-column: 1/-1;
+  }
+  #right_side_banner {
+    grid-column: 1/-1;
+  }
+  .review_card {
+    padding: 1rem;
+  }
 }
