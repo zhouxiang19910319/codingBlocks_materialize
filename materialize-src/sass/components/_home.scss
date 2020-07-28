@@ -54,11 +54,6 @@ blockquote {
 }
 
 /*Playlist section*/
-.other_titles {
-  // margin-top: 10rem;
-  // margin-bottom: 2rem;
-}
-
 .collapsible-header {
   font-size: 1.5rem;
   font-weight: 500;
@@ -79,6 +74,10 @@ blockquote {
 
 .sub_btn {
   background-color: white;
+}
+
+.input-field {
+  background-color: $secondary-color;
 }
 
 #articles_main_grid {
@@ -146,7 +145,7 @@ blockquote {
 }
 
 .review_card_title a {
-  color: inherit;
+  color: $secondary-color;
 }
 
 .review_date {
