@@ -9021,37 +9021,6 @@ HOME GRID
 */
 #home {
   padding: 8rem 8rem;
-  -ms-grid-columns: 3fr 1fr;
-      grid-template-columns: 3fr 1fr;
-  -ms-grid-rows: (1fr)[4];
-      grid-template-rows: repeat(4, 1fr);
-  grid-gap: 4rem;
-}
-
-#title_div, #articles_div, #review_div {
-  grid-column: 1/-1;
-}
-
-#episode_div {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
-}
-
-#search_field, #affiliate_field, #sponsor_field {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
-}
-
-.home_grid_child {
-  border: 1px solid red;
 }
 
 /*
@@ -9092,7 +9061,7 @@ blockquote {
 
 .collapsible-body > ul > li {
   font-size: 1.3rem;
-  padding: .5rem .5rem;
+  padding: 0.5rem 0.5rem;
 }
 
 .playlist_inner_titles {
@@ -9119,7 +9088,7 @@ blockquote {
 .article_summary {
   font-size: 1.2rem;
   font-weight: 300;
-  letter-spacing: .06rem;
+  letter-spacing: 0.06rem;
   line-height: 2rem;
 }
 
@@ -9154,8 +9123,8 @@ blockquote {
   padding: 3rem;
   -webkit-box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   display: -ms-grid;
   display: grid;
 }
@@ -9191,21 +9160,21 @@ blockquote {
 
 .review_p {
   font-size: 1.3rem;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   line-height: 2rem;
 }
 
 .reviewer_name {
   font-size: 1.3rem;
   font-weight: 300;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 .highlight_min_reviewSection {
   color: black;
   background-color: yellow;
   background-position: 0 0.2em;
-  -webkit-box-shadow: inset 0 .99em 0 0 #ffffff;
-          box-shadow: inset 0 .99em 0 0 #ffffff;
+  -webkit-box-shadow: inset 0 0.99em 0 0 #ffffff;
+          box-shadow: inset 0 0.99em 0 0 #ffffff;
   cursor: default;
 }
