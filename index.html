@@ -1,557 +1,615 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Roboto Fonts-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <!--Import materialize.css-->
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="css/main.css"
-      media="screen,projection"
-    />
-    <!--AOS library-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
+<head>
+  <!--Roboto Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection" />
+  <!--AOS library-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <body>
-    <!-- nav bar -->
-    <nav class="nav-extended">
-      <div class="nav-wrapper">
-        <a href="./index.html" class="brand-logo">CODINGBlocks</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="./pages/sponsors.html">Sponsorship</a></li>
-          <li><a href="./pages/merchandise.html">Merchandise</a></li>
-          <li><a href="./pages/aboutus.html">About Us</a></li>
-          <li><a href="./pages/contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="nav-content">
-        <ul class="tabs tabs-transparent row">
-          <li class="tab col s2 active"><a href="#home">Home</a></li>
-          <li class="tab col s2"><a href="#podcasts">Podcasts</a></li>
-          <li class="tab col s2"><a href="#videos">Videos</a></li>
-          <li class="tab col s2">
-            <a href="#tipsandtricks">Tips and Tricks</a>
-          </li>
-          <li class="tab col s2"><a href="#articles">Articles</a></li>
-          <li class="tab col s2"><a href="#resources">Resources</a></li>
-        </ul>
-      </div>
-    </nav>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-    <!-- mobile links -->
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="./pages/sponsors.html">Sponsorship</a></li>
-      <li><a href="./pages/merchandise.html">Merchandise</a></li>
-      <li><a href="./pages/aboutus.html">About Us</a></li>
-      <li><a href="./pages/contact.html">Contact</a></li>
-    </ul>
-
-    <!--Home Page-->
-    <div id="home">
-      <!-- TITLE -->
-      <section id="title_div" class="card home_grid_child" data-aos="fade">
-        <h1 id="title">CodingBlocks.Net</h1>
-        <blockquote>
-          A podcast that covers a wide variety of topics that range from general
-          programming practices to specifics for particular languages.
-        </blockquote>
-        <h5>Hosted by: Allen Underwood, Joe Zack and Michael Outlaw.</h5>
-      </section>
-
-      <!-- EPISODES LISTS -->
-      <section id="episode_div" class="home_grid_child">
-        <h4 class="other_titles">Some of our popular episodes are ...</h4>
-
-        <ul class="collapsible expandable">
-          <!-- googles Engineering -->
-          <li>
-            <div class="collapsible-header">
-              <i class="large material-icons">keyboard_arrow_down</i>Google's
-              Engineering Practices<span
-                class="new badge"
-                data-badge-caption="episodes"
-                >3</span
-              >
-            </div>
-            <div class="collapsible-body">
-              <ul>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Code Review Standard
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  What to Look For in a Code Review
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  How to Navigate a Code Review
-                </li>
-              </ul>
-            </div>
-          </li>
-          <!--Designing Data-Intensive Applications-->
-          <li>
-            <div class="collapsible-header">
-              <i class="large material-icons">keyboard_arrow_down</i> Designing
-              Data-Intensive Applications<span
-                class="new badge"
-                data-badge-caption="episodes"
-                >9</span
-              >
-            </div>
-            <div class="collapsible-body">
-              <ul>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Reliability
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Scalability
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Maintainability
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Data Models: Relational vs Document
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Data Models: Relationships
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Data Models: Query Languages
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Storage and Retrieval
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  SSTables and LSM-Trees
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  To B-Tree or not to B-Tree
-                </li>
-              </ul>
-            </div>
-          </li>
-          <!--developer shopping spree-->
-          <li>
-            <div class="collapsible-header">
-              <i class="large material-icons">keyboard_arrow_down</i>Developer
-              Shopping Spree
-              <span class="new badge" data-badge-caption="episodes">4</span>
-            </div>
-            <div class="collapsible-body">
-              <ul>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Developer Shopping Spree 2017
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Developer Shopping Spree 2018
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Developer Shopping Spree 2019
-                </li>
-                <div class="divider"></div>
-                <li
-                  class="waves-effect waves-teal waves-ripple playlist_inner_titles"
-                >
-                  Developer Shopping Spree 2020
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <!--Right Side Banner-->
-      <section id="right_side_banner">
-        <!-- SEARCH SECTION -->
-        <section id="search_field" class="home_grid_child">
-          <h5 class="sidebar_titles">Search Coding Blocks</h5>
-          <nav>
-            <div class="nav-wrapper">
-              <form>
-                <div class="input-field">
-                  <input id="search" type="search" required />
-                  <label class="label-icon" for="search"
-                    ><i class="material-icons">search</i></label
-                  >
-                  <i class="material-icons">close</i>
-                </div>
-              </form>
-            </div>
-          </nav>
-        </section>
-
-        <!-- AFFILIATE SECTION -->
-        <section id="affiliate_field" class="home_grid_child">
-          <h5 class="sidebar_titles">Support the Show</h5>
-          <div id="p_logo_div">
-            <img src="./img/p_logo.png" alt="p_logo" id="p_logo" />
-          </div>
-        </section>
-
-        <!-- SPONSOR FIELD -->
-        <section id="sponsor_field" class="home_grid_child">
-          <h5 class="sidebar_titles">Sponsor Slot</h5>
-          <div id="j_logo_div">
-            <img src="./img/j_logo.png" alt="j_logo" id="j_logo" />
-          </div>
-        </section>
-      </section>
-
-      <!-- ARTICLE CARDS -->
-      <section id="articles_div" class="home_grid_child">
-        <h4 class="other_titles">Latest articles</h4>
-        <div class="card" id="articles_main_grid">
-          <div class="card sticky-action articles_sub_item hoverable">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./img/card_bg1.jpg" />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator article_card_title"
-                ><i class="material-icons right">more_vert</i>Getting started
-                with Apache Beam and Kotlin</span
-              >
-            </div>
-            <div class="card-reveal">
-              <h4 class="card-title article_card_title">
-                Getting started with Apache Beam and Kotlin<i
-                  class="material-icons right"
-                  >close</i
-                >
-              </h4>
-              <div class="divider"></div>
-              <p class="article_summary">
-                Are you looking for a simple getting started guide for working
-                with Kotlin and Apache Beam? Well congratulations, you are in
-                the right place. I’ve been doing some live coding on the
-                subject, and I made a teeny tiny project to help me get started
-                on new Beam projects quicker.
-              </p>
-            </div>
-            <div class="card-action">
-              <a href="#" class="card_link">Read More</a>
-            </div>
-          </div>
-
-          <div class="card sticky-action articles_sub_item hoverable">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./img/card_bg2.jpg" />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator"
-                ><i class="material-icons right">more_vert</i>The Best Dev
-                Audiobooks</span
-              >
-            </div>
-            <div class="card-reveal">
-              <span class="card-title"
-                >The Best Dev Audiobooks<i class="material-icons right"
-                  >close</i
-                ></span
-              >
-              <div class="divider"></div>
-              <p class="article_summary">
-                I’m a big fan of audio learning, and of course there are tons of
-                great, free, dev podcasts but did you know that there are quite
-                a few great audiobooks for devs as well?
-              </p>
-              <p class="article_summary truncate">
-                I’ve been a subscriber to Audible.com (and yes, these are
-                affiliate links below) for a long time, but they have only
-                recently started adding the types of programming books that I
-                liked to read. I’ve kept track of the Audiobooks that I’ve
-                picked up that intersect with books you frequently see on “best
-                of ” lists. I’m proud to say I’m 6.5/7 through the list already
-                and I’ve got the next one already on deck!
-              </p>
-            </div>
-            <div class="card-action">
-              <a href="#" class="card_link">Read More</a>
-            </div>
-          </div>
-
-          <div class="card sticky-action articles_sub_item hoverable">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./img/card_bg3.jpg" />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator"
-                ><i class="material-icons right">more_vert</i>Know When to Roll
-                Your Own or Add a Tool to Your Toolbox</span
-              >
-            </div>
-            <div class="card-reveal">
-              <span class="card-title"
-                >Know When to Roll Your Own or Add a Tool to Your Toolbox<i
-                  class="material-icons right"
-                  >close</i
-                ></span
-              >
-              <div class="divider"></div>
-              <p class="article_summary">
-                By no means have I seen everything there is to see in the world
-                of development, but I have been around long enough to see the
-                change from needing a single database which housed all your
-                data, to this world where there’s SO MUCH data that you couldn’t
-                possibly store it all in a single database, on a single server,
-                or in many cases, not a dozen servers.
-              </p>
-            </div>
-            <div class="card-action">
-              <a href="#" class="card_link">Read More</a>
-            </div>
-          </div>
-
-          <div class="card sticky-action articles_sub_item hoverable">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./img/card_bg4.jpg" />
-            </div>
-            <div class="card-content">
-              <span class="card-title activator"
-                ><i class="material-icons right">more_vert</i>My 2020
-                (Dev|Re)solutions</span
-              >
-            </div>
-            <div class="card-reveal">
-              <span class="card-title"
-                >My 2020 (Dev|Re)solutions<i class="material-icons right"
-                  >close</i
-                ></span
-              >
-              <div class="divider"></div>
-              <p class="article_summary">
-                New Year’s is my favorite holiday because I find the notion of
-                periodic renewal invigorating. Let that old lasagna be forgot, I
-                want to move forward! Overall, I was pretty happy with how my
-                technical skills progressed last year, but I think I can do
-                better. Much better.
-              </p>
-              <p class="article_summary truncate">
-                This year I’m done trying to micromanage my future with limited
-                information. I want to keep things simple by setting a high
-                level focus and prioritizing habits over static goals.
-              </p>
-            </div>
-            <div class="card-action">
-              <a href="#" class="card_link">Read More</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- REVIEW CARDS BABY -->
-      <section id="review_div" class="home_grid_child">
-        <h4 class="other_titles">What Others Say About CodingBlocks:</h4>
-        <!--Card Stack Wrapper Section-->
-        <div id="card_stack_wrapper">
-          <!--1st card-->
-          <div class="card review_card">
-            <h4 class="review_card_title"><a href="#0">3 years strong</a></h4>
-            <!-- <p class="review_date">07/15/2020</p> -->
-            <p class="review_p">
-              I have been a weekly listener for 3 years now.
-              <a href="#0" class="highlight_min_reviewSection"
-                >The content of this pod has remained excellent and relevant
-                throughout that time. The honest discussions are great and have
-                had direct impact in some cases to my daily work!</a
-              >
-              Thanks for all the hard work! Keep up the advertisement voice
-              outlaw! 🍻
-            </p>
-            <p class="reviewer_name right-align">TomJerry24</p>
-          </div>
-          <!-- second card -->
-          <div class="card review_card">
-            <h4 class="review_card_title">
-              <a href="#0">Like having three virtual mentors!</a>
-            </h4>
-            <div>
-              <!-- <p class="review_date">07/07/2020</p> -->
-              <p class="review_p">
-                Great show! As someone just starting to learn programming, some
-                of the content is a bit over my head, but I always get something
-                useful out of each episode. And many of the episodes are very
-                beginner friendly.
-                <a href="#0" class="highlight_min_reviewSection"
-                  >Listening to the podcast is like having three great (virtual)
-                  programming mentors.</a
-                >
-                Highly recommended!
-              </p>
-            </div>
-            <p class="reviewer_name right-align">stupub</p>
-          </div>
-          <!-- 3rd card -->
-          <div class="card review_card">
-            <h4 class="review_card_title"><a href="#0">Grocery store</a></h4>
-            <!-- <p class="review_date">03/09/2020</p> -->
-            <p class="review_p">
-              <a href="#0" class="highlight_min_reviewSection"
-                >This podcast is like a big American grocery store that sells
-                developer centric “food for thought”.</a
-              >
-            </p>
-            <p class="reviewer_name right-align">index out of range</p>
-          </div>
-          <!-- 4th card -->
-          <div class="card review_card">
-            <h4 class="review_card_title">
-              <a href="#0">Good and relevant conversation</a>
-            </h4>
-            <!-- <p class="review_date">11/25/2018</p> -->
-            <p class="review_p">
-              <a href="#0" class="highlight_min_reviewSection"
-                >As a novice developer, I am learning quite a bit.</a
-              >
-              ...
-              <a href="#0" class="highlight_min_reviewSection"
-                >It is nice to hear industry developers flesh out concepts
-                beyond just an academic or instructional viewpoint and place the
-                subject matter in everyday contexts that an industry developer
-                would encounter. </a
-              >Even though they are experienced developers, they seem to be
-              genuinely interested in the subjects they discuss as if they were
-              new to the industry and this is very encouraging for me.
-            </p>
-            <p class="reviewer_name right-align">JonMabale</p>
-          </div>
-          <!-- 5th card -->
-          <div class="card review_card">
-            <h4 class="review_card_title">
-              <a href="#0">Podcast I’ve been looking for</a>
-            </h4>
-            <!-- <p class="review_date">08/07/2018</p> -->
-            <p class="review_p">
-              I’ve been looking for an software development/architecture podcast
-              for years to help me expand my knowledge and skill set as a
-              developer. Finally found it here!
-            </p>
-            <p class="reviewer_name right-align">ArdeChris</p>
-          </div>
-        </div>
-      </section>
-    </div>
-    <!--END OF HOME-->
-    <div id="podcasts">
-      <h1>Podcasts</h1>
-    </div>
-    <div id="videos">Videos Hello?</div>
-    <div id="tipsandtricks">Tips and Tricks</div>
-    <div id="articles">Articles</div>
-    <div id="resources">Resources</div>
-
-    <!--FLOATING BUTTION IS HERE!!! -->
-    <div class="fixed-action-btn">
-      <a
-        class="btn-floating btn-large tooltipped"
-        data-position="left"
-        data-tooltip="Follow US Here"
-      >
-        <i class="large material-icons">more_horiz</i>
-      </a>
-      <ul>
-        <li>
-          <img
-            src="./img/FAB icons/apple1.png"
-            class="btn-floating btn-large sub_btn"
-            alt=""
-          />
-        </li>
-        <li>
-          <img
-            src="./img/FAB icons/reddit1.png"
-            class="btn-floating btn-large sub_btn"
-            alt=""
-          />
-        </li>
-        <li>
-          <img
-            src="./img/FAB icons/spotify1.png"
-            class="btn-floating btn-large sub_btn"
-            alt=""
-          />
-        </li>
-        <li>
-          <img
-            src="./img/FAB icons/twitter1.png"
-            class="btn-floating btn-large sub_btn"
-            alt=""
-          />
-        </li>
-        <li>
-          <img
-            src="./img/FAB icons/youtube1.png"
-            class="btn-floating btn-large sub_btn"
-            alt=""
-          />
-        </li>
+<body>
+  <!-- nav bar -->
+  <nav class="nav-extended">
+    <div class="nav-wrapper">
+      <a href="./index.html" class="brand-logo">CODINGBlocks</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="./pages/sponsors.html">Sponsorship</a></li>
+        <li><a href="./pages/merchandise.html">Merchandise</a></li>
+        <li><a href="./pages/aboutus.html">About Us</a></li>
+        <li><a href="./pages/contact.html">Contact</a></li>
       </ul>
     </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent row">
+        <li class="tab col s2 active"><a href="#home">Home</a></li>
+        <li class="tab col s2"><a href="#podcasts">Podcasts</a></li>
+        <li class="tab col s2"><a href="#videos">Videos</a></li>
+        <li class="tab col s2">
+          <a href="#tipsandtricks">Tips and Tricks</a>
+        </li>
+        <li class="tab col s2"><a href="#articles">Articles</a></li>
+        <li class="tab col s2"><a href="#resources">Resources</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 1000,
-      });
-    </script>
-  </body>
+  <!-- mobile links -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="./pages/sponsors.html">Sponsorship</a></li>
+    <li><a href="./pages/merchandise.html">Merchandise</a></li>
+    <li><a href="./pages/aboutus.html">About Us</a></li>
+    <li><a href="./pages/contact.html">Contact</a></li>
+  </ul>
+
+  <!--Home Page-->
+  <div id="home">
+    <!-- TITLE -->
+    <section id="title_div" class="card home_grid_child" data-aos="fade">
+      <h1 id="title">CodingBlocks.Net</h1>
+      <blockquote>
+        A podcast that covers a wide variety of topics that range from general
+        programming practices to specifics for particular languages.
+      </blockquote>
+      <h5>Hosted by: Allen Underwood, Joe Zack and Michael Outlaw.</h5>
+    </section>
+
+    <!-- EPISODES LISTS -->
+    <section id="episode_div" class="home_grid_child">
+      <h4 class="other_titles">Some of our popular episodes are ...</h4>
+
+      <ul class="collapsible expandable">
+        <!-- googles Engineering -->
+        <li>
+          <div class="collapsible-header">
+            <i class="large material-icons">keyboard_arrow_down</i>Google's
+            Engineering Practices<span class="new badge" data-badge-caption="episodes">3</span>
+          </div>
+          <div class="collapsible-body">
+            <ul>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Code Review Standard
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                What to Look For in a Code Review
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                How to Navigate a Code Review
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!--Designing Data-Intensive Applications-->
+        <li>
+          <div class="collapsible-header">
+            <i class="large material-icons">keyboard_arrow_down</i> Designing
+            Data-Intensive Applications<span class="new badge" data-badge-caption="episodes">9</span>
+          </div>
+          <div class="collapsible-body">
+            <ul>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Reliability
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Scalability
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Maintainability
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Data Models: Relational vs Document
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Data Models: Relationships
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Data Models: Query Languages
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Storage and Retrieval
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                SSTables and LSM-Trees
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                To B-Tree or not to B-Tree
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!--developer shopping spree-->
+        <li>
+          <div class="collapsible-header">
+            <i class="large material-icons">keyboard_arrow_down</i>Developer
+            Shopping Spree
+            <span class="new badge" data-badge-caption="episodes">4</span>
+          </div>
+          <div class="collapsible-body">
+            <ul>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Developer Shopping Spree 2017
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Developer Shopping Spree 2018
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Developer Shopping Spree 2019
+              </li>
+              <div class="divider"></div>
+              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+                Developer Shopping Spree 2020
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!--Right Side Banner-->
+    <section id="right_side_banner">
+      <!-- SEARCH SECTION -->
+      <section id="search_field" class="home_grid_child">
+        <h5 class="sidebar_titles">Search Coding Blocks</h5>
+        <nav>
+          <div class="nav-wrapper">
+            <form>
+              <div class="input-field">
+                <input id="search" type="search" required />
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </section>
+
+      <!-- AFFILIATE SECTION -->
+      <section id="affiliate_field" class="home_grid_child">
+        <h5 class="sidebar_titles">Support the Show</h5>
+        <div id="p_logo_div">
+          <img src="./img/p_logo.png" alt="p_logo" id="p_logo" />
+        </div>
+      </section>
+
+      <!-- SPONSOR FIELD -->
+      <section id="sponsor_field" class="home_grid_child">
+        <h5 class="sidebar_titles">Sponsor Slot</h5>
+        <div id="j_logo_div">
+          <img src="./img/j_logo.png" alt="j_logo" id="j_logo" />
+        </div>
+      </section>
+    </section>
+
+    <!-- ARTICLE CARDS -->
+    <section id="articles_div" class="home_grid_child">
+      <h4 class="other_titles">Latest articles</h4>
+      <div class="card" id="articles_main_grid">
+        <div class="card sticky-action articles_sub_item hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./img/card_bg1.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator article_card_title"><i class="material-icons right">more_vert</i>Getting
+              started
+              with Apache Beam and Kotlin</span>
+          </div>
+          <div class="card-reveal">
+            <h4 class="card-title article_card_title">
+              Getting started with Apache Beam and Kotlin<i class="material-icons right">close</i>
+            </h4>
+            <div class="divider"></div>
+            <p class="article_summary">
+              Are you looking for a simple getting started guide for working
+              with Kotlin and Apache Beam? Well congratulations, you are in
+              the right place. I’ve been doing some live coding on the
+              subject, and I made a teeny tiny project to help me get started
+              on new Beam projects quicker.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="#" class="card_link">Read More</a>
+          </div>
+        </div>
+
+        <div class="card sticky-action articles_sub_item hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./img/card_bg2.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"><i class="material-icons right">more_vert</i>The Best Dev
+              Audiobooks</span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title">The Best Dev Audiobooks<i class="material-icons right">close</i></span>
+            <div class="divider"></div>
+            <p class="article_summary">
+              I’m a big fan of audio learning, and of course there are tons of
+              great, free, dev podcasts but did you know that there are quite
+              a few great audiobooks for devs as well?
+            </p>
+            <p class="article_summary truncate">
+              I’ve been a subscriber to Audible.com (and yes, these are
+              affiliate links below) for a long time, but they have only
+              recently started adding the types of programming books that I
+              liked to read. I’ve kept track of the Audiobooks that I’ve
+              picked up that intersect with books you frequently see on “best
+              of ” lists. I’m proud to say I’m 6.5/7 through the list already
+              and I’ve got the next one already on deck!
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="#" class="card_link">Read More</a>
+          </div>
+        </div>
+
+        <div class="card sticky-action articles_sub_item hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./img/card_bg3.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"><i class="material-icons right">more_vert</i>Know When to Roll
+              Your Own or Add a Tool to Your Toolbox</span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title">Know When to Roll Your Own or Add a Tool to Your Toolbox<i
+                class="material-icons right">close</i></span>
+            <div class="divider"></div>
+            <p class="article_summary">
+              By no means have I seen everything there is to see in the world
+              of development, but I have been around long enough to see the
+              change from needing a single database which housed all your
+              data, to this world where there’s SO MUCH data that you couldn’t
+              possibly store it all in a single database, on a single server,
+              or in many cases, not a dozen servers.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="#" class="card_link">Read More</a>
+          </div>
+        </div>
+
+        <div class="card sticky-action articles_sub_item hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./img/card_bg4.jpg" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator"><i class="material-icons right">more_vert</i>My 2020
+              (Dev|Re)solutions</span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title">My 2020 (Dev|Re)solutions<i class="material-icons right">close</i></span>
+            <div class="divider"></div>
+            <p class="article_summary">
+              New Year’s is my favorite holiday because I find the notion of
+              periodic renewal invigorating. Let that old lasagna be forgot, I
+              want to move forward! Overall, I was pretty happy with how my
+              technical skills progressed last year, but I think I can do
+              better. Much better.
+            </p>
+            <p class="article_summary truncate">
+              This year I’m done trying to micromanage my future with limited
+              information. I want to keep things simple by setting a high
+              level focus and prioritizing habits over static goals.
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="#" class="card_link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEW CARDS BABY -->
+    <section id="review_div" class="home_grid_child">
+      <h4 class="other_titles">What Others Say About CodingBlocks:</h4>
+      <!--Card Stack Wrapper Section-->
+      <div id="card_stack_wrapper">
+        <!--1st card-->
+        <div class="card review_card">
+          <h4 class="review_card_title"><a href="#0">3 years strong</a></h4>
+          <!-- <p class="review_date">07/15/2020</p> -->
+          <p class="review_p">
+            I have been a weekly listener for 3 years now.
+            <a href="#0" class="highlight_min_reviewSection">The content of this pod has remained excellent and relevant
+              throughout that time. The honest discussions are great and have
+              had direct impact in some cases to my daily work!</a>
+            Thanks for all the hard work! Keep up the advertisement voice
+            outlaw! 🍻
+          </p>
+          <p class="reviewer_name right-align">TomJerry24</p>
+        </div>
+        <!-- second card -->
+        <div class="card review_card">
+          <h4 class="review_card_title">
+            <a href="#0">Like having three virtual mentors!</a>
+          </h4>
+          <div>
+            <!-- <p class="review_date">07/07/2020</p> -->
+            <p class="review_p">
+              Great show! As someone just starting to learn programming, some
+              of the content is a bit over my head, but I always get something
+              useful out of each episode. And many of the episodes are very
+              beginner friendly.
+              <a href="#0" class="highlight_min_reviewSection">Listening to the podcast is like having three great
+                (virtual)
+                programming mentors.</a>
+              Highly recommended!
+            </p>
+          </div>
+          <p class="reviewer_name right-align">stupub</p>
+        </div>
+        <!-- 3rd card -->
+        <div class="card review_card">
+          <h4 class="review_card_title"><a href="#0">Grocery store</a></h4>
+          <!-- <p class="review_date">03/09/2020</p> -->
+          <p class="review_p">
+            <a href="#0" class="highlight_min_reviewSection">This podcast is like a big American grocery store that
+              sells
+              developer centric “food for thought”.</a>
+          </p>
+          <p class="reviewer_name right-align">index out of range</p>
+        </div>
+        <!-- 4th card -->
+        <div class="card review_card">
+          <h4 class="review_card_title">
+            <a href="#0">Good and relevant conversation</a>
+          </h4>
+          <!-- <p class="review_date">11/25/2018</p> -->
+          <p class="review_p">
+            <a href="#0" class="highlight_min_reviewSection">As a novice developer, I am learning quite a bit.</a>
+            ...
+            <a href="#0" class="highlight_min_reviewSection">It is nice to hear industry developers flesh out concepts
+              beyond just an academic or instructional viewpoint and place the
+              subject matter in everyday contexts that an industry developer
+              would encounter. </a>Even though they are experienced developers, they seem to be
+            genuinely interested in the subjects they discuss as if they were
+            new to the industry and this is very encouraging for me.
+          </p>
+          <p class="reviewer_name right-align">JonMabale</p>
+        </div>
+        <!-- 5th card -->
+        <div class="card review_card">
+          <h4 class="review_card_title">
+            <a href="#0">Podcast I’ve been looking for</a>
+          </h4>
+          <!-- <p class="review_date">08/07/2018</p> -->
+          <p class="review_p">
+            I’ve been looking for an software development/architecture podcast
+            for years to help me expand my knowledge and skill set as a
+            developer. Finally found it here!
+          </p>
+          <p class="reviewer_name right-align">ArdeChris</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--END OF HOME-->
+
+  <!--Podcast page-->
+  <div id="podcasts">
+    <h1>Podcasts</h1>
+    <section id="content_wrapper">
+      <div id="left_content">
+        <!--Card 1-->
+        <div class="card podcast_cards">
+          <div class="podcasts_title_area">
+            <h4>The DevOps Handbook – The Technical Practices of Feedback</h4>
+          </div>
+          <div class="divider"></div>
+          <p class="podcast_date">August 2, 2020 By Michael Outlaw</p>
+          <div class="podcast_description">
+            <p>
+              It’s all about telemetry and feedback as we continue learning from
+              The DevOps Handbook, while Joe knows his versions, Michael might
+              have gone crazy if he didn’t find it, and Allen has more than enough
+              muscles.
+            </p>
+            <p>
+              For those that use their podcast player to read these show notes,
+              did you know that you can find them at
+              https://www.codingblocks.net/episode138? Well, you can. And now you
+              know, and knowing is half the battle.
+            </p>
+          </div>
+          <a class="waves-effect waves-light btn">Read More</a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Play">
+            <i class="material-icons title_icons">play_arrow</i>
+          </a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Download">
+            <i class="material-icons title_icons">arrow_downward</i>
+          </a>
+        </div>
+
+        <!--Card 2-->
+        <div class="card podcast_cards">
+          <div class="podcasts_title_area">
+            <h4>The DevOps Handbook – Architecting for Low-Risk Releases</h4>
+          </div>
+          <div class="divider"></div>
+          <p class="podcast_date">July 19, 2020 By Michael Outlaw</p>
+          <div class="podcast_description">
+            <p>
+              Our journey into the world of DevOps continues with The DevOps Handbook as Michael doesn’t take enough
+              tangents, Joe
+              regrets automating the build, err, wait never regrets (sorry), and ducks really like Allen.
+            </p>
+            <p>
+              If you’re reading these show notes via your podcast player, you can find this episode’s full show notes at
+              https://www.codingblocks.net/episode137, where you can be a part of the conversation.
+            </p>
+          </div>
+          <a class="waves-effect waves-light btn">Read More</a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Play">
+            <i class="material-icons title_icons">play_arrow</i>
+          </a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Download">
+            <i class="material-icons title_icons">arrow_downward</i>
+          </a>
+        </div>
+
+        <!--Card 3-->
+        <div class="card podcast_cards">
+          <div class="podcasts_title_area">
+            <h4>The DevOps Handbook – The Technical Practices of Flow</h4>
+          </div>
+          <div class="divider"></div>
+          <p class="podcast_date">July 19, 2020 By Michael Outlaw</p>
+          <div class="podcast_description">
+            <p>
+              We begin our journey into the repeatable world of DevOps by taking cues from The DevOps Handbook, while
+              Allen loves all
+              things propane, Joe debuts his “singing” career with his new music video, and Michael did a very bad,
+              awful thing.
+            </p>
+            <p>
+              These show notes can be found at https://www.codingblocks.net/episode136 for those reading this via their
+              podcast
+              player.
+            </p>
+          </div>
+          <a class="waves-effect waves-light btn">Read More</a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Play">
+            <i class="material-icons title_icons">play_arrow</i>
+          </a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Download">
+            <i class="material-icons title_icons">arrow_downward</i>
+          </a>
+        </div>
+
+        <!--Card 4-->
+        <div class="card podcast_cards">
+          <div class="podcasts_title_area">
+            <h4>Survey Says … 2020 Stack Overflow Developer Survey</h4>
+          </div>
+          <div class="divider"></div>
+          <p class="podcast_date">June 21, 2020 By Michael Outlaw</p>
+          <div class="podcast_description">
+            <p>
+              We review the Stack Overflow Developer Survey in the same year it was created for the first time ever,
+              while Joe has
+              surprising news about the Hanson Brothers, Allen doesn’t have a thought process, and Michael’s callback is
+              ruined.
+            </p>
+            <p>
+              If you’re reading these show notes via your podcast player, you can find this episode’s full show notes
+              and join the
+              conversation at https://www.codingblocks.net/episode135.
+            </p>
+          </div>
+          <a class="waves-effect waves-light btn">Read More</a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Play">
+            <i class="material-icons title_icons">play_arrow</i>
+          </a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Download">
+            <i class="material-icons title_icons">arrow_downward</i>
+          </a>
+        </div>
+
+        <!--Card 5-->
+        <div class="card podcast_cards">
+          <div class="podcasts_title_area">
+            <h4>Google’s Engineering Practices – How to Navigate a Code Review</h4>
+          </div>
+          <div class="divider"></div>
+          <p class="podcast_date">June 7, 2020 By Michael Outlaw</p>
+          <div class="podcast_description">
+            <p>
+              As we learn from Google about how to navigate a code review, Michael learns to not give out compliments,
+              Joe promises to
+              sing if we get enough new reviews, and Allen introduces a new section to the show.
+            </p>
+            <p>
+              For those reading this via their podcast player, this episode’s full show notes can be found at
+              https://www.codingblocks.net/episode134.
+            </p>
+          </div>
+          <a class="waves-effect waves-light btn">Read More</a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Play">
+            <i class="material-icons title_icons">play_arrow</i>
+          </a>
+          <a class="waves-effect waves-light btn tooltipped" data-position="bottom" data-tooltip="Download">
+            <i class="material-icons title_icons">arrow_downward</i>
+          </a>
+        </div>
+
+        <ul class="pagination">
+          <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+          <li class="active"><a href="#!">1</a></li>
+          <li class="waves-effect"><a href="#!">2</a></li>
+          <li class="waves-effect"><a href="#!">3</a></li>
+          <li class="waves-effect"><a href="#!">4</a></li>
+          <li class="waves-effect"><a href="#!">5</a></li>
+          <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+      </div>
+      <div id="right_player">
+
+      </div>
+    </section>
+  </div>
+
+
+  <!--End of Podcast page-->
+
+  <div id="videos">Videos Hello?</div>
+  <div id="tipsandtricks">Tips and Tricks</div>
+  <div id="articles">Articles</div>
+  <div id="resources">Resources</div>
+
+  <!--FLOATING BUTTION IS HERE!!! -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large tooltipped" data-position="left" data-tooltip="Follow US Here">
+      <i class="large material-icons">more_horiz</i>
+    </a>
+    <ul>
+      <li>
+        <img src="./img/FAB icons/apple1.png" class="btn-floating btn-large sub_btn" alt="" />
+      </li>
+      <li>
+        <img src="./img/FAB icons/reddit1.png" class="btn-floating btn-large sub_btn" alt="" />
+      </li>
+      <li>
+        <img src="./img/FAB icons/spotify1.png" class="btn-floating btn-large sub_btn" alt="" />
+      </li>
+      <li>
+        <img src="./img/FAB icons/twitter1.png" class="btn-floating btn-large sub_btn" alt="" />
+      </li>
+      <li>
+        <img src="./img/FAB icons/youtube1.png" class="btn-floating btn-large sub_btn" alt="" />
+      </li>
+    </ul>
+  </div>
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
+</body>
+
 </html>

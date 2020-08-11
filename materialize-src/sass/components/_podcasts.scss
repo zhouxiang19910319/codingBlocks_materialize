@@ -1,3 +1,26 @@
 #podcasts {
   padding: 3rem 3rem;
 }
+#content_wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 3rem;
+}
+.podcast_cards {
+  padding: 3rem;
+}
+.podcast_date {
+  color: #8d8d8d;
+}
+.podcast_description {
+  font-size: 1.3rem;
+}
+.podcasts_title_area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title_icons {
+  font-size: 2rem;
+}
