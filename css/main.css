@@ -9572,7 +9572,14 @@ html {
 }
 
 #podcasts {
+  margin-top: 1rem;
   padding: 3rem 3rem;
+  background-image: url(../../../img/player_bg.jpg);
+  background-size: cover;
+}
+
+#podcast_h1 {
+  color: white;
 }
 
 #content_wrapper {
@@ -9610,4 +9617,23 @@ html {
 
 .title_icons {
   font-size: 2rem;
+}
+
+#right_player {
+  height: 300px;
+}
+
+.bg_text {
+  color: red;
+  font-weight: bold;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 999;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+#bg_img {
+  height: 100%;
 }
