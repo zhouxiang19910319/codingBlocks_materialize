@@ -409,7 +409,7 @@
   <!--Podcast page-->
   <div id="podcasts">
     <h1 id="podcast_h1">Podcasts</h1>
-    <section id="content_wrapper">
+    <section id="content_wrapper" class="row">
       <div id="left_content">
         <!--Card 1-->
         <div class="card podcast_cards">
@@ -553,22 +553,63 @@
           </a>
         </div>
 
+        <!--Pagination-->
         <ul class="pagination">
-          <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+          <li class="disabled">
+            <a href="#!">
+              <i class="material-icons">chevron_left</i>
+            </a>
+          </li>
           <li class="active"><a href="#!">1</a></li>
           <li class="waves-effect"><a href="#!">2</a></li>
           <li class="waves-effect"><a href="#!">3</a></li>
           <li class="waves-effect"><a href="#!">4</a></li>
           <li class="waves-effect"><a href="#!">5</a></li>
-          <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+          <li class="waves-effect">
+            <a href="#!">
+              <i class="material-icons">chevron_right</i>
+            </a>
+          </li>
         </ul>
       </div>
-      <div id="right_player" class="card">
-        <!-- <div id="bg_img"></div>
-        <div id="content">
-          <h5>Hello</h5>
-        </div> -->
+
+      <!--Right Side Player-->
+      <div class="card-panel" id="right_side_player_wrapper">
+
+        <!--Wrapper Grid Child 1-->
+        <div id="avatar" class="wrapper_grid_child">
+        </div>
+
+        <!--Wrapper Grid Child 2-->
+        <div id="control_panel_top" class="card wrapper_grid_child">
+          <div>
+            <span class="card-title" id="player_title">The DevOps Handbook – The Technical Practices of Feedback</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light">
+              <i class="material-icons">share</i>
+            </a>
+          </div>
+        </div>
+
+        <!--Wrapper Grid Child 3-->
+        <div id="control_panel_bottom" class="card wrapper_grid_child">
+          <a href="#!" class="btn waves-effect waves-light player_control_btns">
+            <i class="material-icons">skip_previous</i>
+          </a>
+          <a href="#!" class="btn waves-effect waves-light player_control_btns">
+            <i class="material-icons">play_arrow</i>
+          </a>
+          <a href="#!" class="btn waves-effect waves-light player_control_btns">
+            <i class="material-icons">skip_next</i>
+          </a>
+        </div>
+
+        <!--Wrapper Grid Child 4-->
+        <div id="playlist" class="wrapper_grid_child">
+
+        </div>
+
       </div>
+
     </section>
   </div>
 
