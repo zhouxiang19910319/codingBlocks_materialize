@@ -38,7 +38,6 @@
   bottom: 8rem;
   align-self: end;
 
-  height: 600px;
   padding: 0 0;
   background: inherit;
   display: grid;
@@ -97,4 +96,40 @@
 
 #playlist {
   grid-column: 1/-1;
+  // height: 400px;
+}
+#playlist_wrapper {
+  height: 400px;
+}
+.playlist_p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.playlist_p_firstRow {
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+#first_row {
+  border-bottom: 2px solid white;
+  backdrop-filter: blur(10px);
+}
+
+#player_playlistSection {
+  list-style: none;
+  max-height: 400px;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+}
+.player_playlistSection_li {
+  margin-bottom: 0;
+}
+.player_playlistSection_li:nth-child(even) {
+  backdrop-filter: blur(10px);
+}
+.playlist_ep_name {
+  cursor: pointer;
 }
