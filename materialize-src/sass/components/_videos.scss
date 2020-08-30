@@ -1,0 +1,29 @@
+#videos {
+  margin-top: 1rem;
+  padding: 3rem 3rem;
+  background-image: url("https://picsum.photos/id/122/4147/2756");
+  // background-image: url("../../../img/real_video_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#video_h1 {
+  color: white;
+}
+#content_wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 3rem;
+}
+.video_background {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+li a {
+  text-transform: none;
+}

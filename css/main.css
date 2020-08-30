@@ -9035,6 +9035,7 @@ HOME GRID
 */
 #home {
   padding: 8rem 8rem;
+  margin-top: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 3fr 1fr;
@@ -9249,6 +9250,7 @@ HOME GRID
 */
 #home {
   padding: 8rem 8rem;
+  margin-top: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 3fr 1fr;
@@ -9744,4 +9746,38 @@ html {
 
 .playlist_ep_name {
   cursor: pointer;
+}
+
+#videos {
+  margin-top: 1rem;
+  padding: 3rem 3rem;
+  background-image: url("https://picsum.photos/id/122/4147/2756");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#video_h1 {
+  color: white;
+}
+
+#content_wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 1fr;
+      grid-template-columns: 3fr 1fr;
+  grid-gap: 3rem;
+}
+
+.video_background {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+li a {
+  text-transform: none;
 }

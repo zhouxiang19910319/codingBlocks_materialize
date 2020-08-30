@@ -10,10 +10,15 @@ HOME GRID
 */
 #home {
   padding: 8rem 8rem;
+  margin-top: 1rem;
 
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-gap: 2rem;
+
+  // background-image: url("../../../img/22.jpg");
+  // background-size: cover;
+  // background-repeat: no-repeat;
 }
 #title_div {
   grid-column: 1/-1;

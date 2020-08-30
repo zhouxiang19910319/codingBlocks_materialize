@@ -1,4 +1,4 @@
-// Tabs
+// Tabs inside Navbar
 window.addEventListener("DOMContentLoaded", (event) => {
   const options = {
     duration: 300,
@@ -8,6 +8,19 @@ window.addEventListener("DOMContentLoaded", (event) => {
   };
 
   const tabsContainer = document.querySelector(".nav-content .tabs");
+  M.Tabs.init(tabsContainer, options);
+});
+
+// Tabs in video page
+window.addEventListener("DOMContentLoaded", (event) => {
+  const options = {
+    duration: 300,
+    onShow: null,
+    swipeable: false,
+    responsiveThreshold: Infinity,
+  };
+
+  const tabsContainer = document.querySelector("#select_section .tabs");
   M.Tabs.init(tabsContainer, options);
 });
 

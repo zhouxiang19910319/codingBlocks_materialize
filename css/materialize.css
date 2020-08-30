@@ -9035,6 +9035,7 @@ HOME GRID
 */
 #home {
   padding: 8rem 8rem;
+  margin-top: 1rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 3fr 1fr;

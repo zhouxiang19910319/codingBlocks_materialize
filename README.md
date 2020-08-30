@@ -97,6 +97,8 @@ I’ve been looking for an software development/architecture podcast for years t
 
 ---
 
-## Bugs I need to work on later.
+## Things I need to work on later.
 
 - [] relative links are broken, therefore (I assume) some of the animation I set for pages cannot be displayed correctly.
+
+- [] add in scroll text effect ?
