@@ -5647,7 +5647,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .waves-effect.waves-yellow .waves-ripple {
-  background-color: rgba(255, 235, 59, 0.7);
+  background-color: rgba(148, 135, 0, 0.7);
 }
 
 .waves-effect.waves-orange .waves-ripple {
@@ -9780,4 +9780,46 @@ ul {
 
 li a {
   text-transform: none;
+}
+
+#content_1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#content_2 {
+  display: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#content_3 {
+  display: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#content_4 {
+  display: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.content_section_p {
+  font-size: 1.2rem;
+}
+
+.content_section_bold {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.content_section_ul {
+  list-style-type: square;
+}
+
+.content_section_li {
+  border: 1px solid purple;
+  font-size: 1.2rem;
+  list-style: dot;
 }

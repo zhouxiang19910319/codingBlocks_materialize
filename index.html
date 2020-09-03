@@ -145,19 +145,19 @@
           </div>
           <div class="collapsible-body">
             <ul>
-              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+              <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
                 Developer Shopping Spree 2017
               </li>
               <div class="divider"></div>
-              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+              <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
                 Developer Shopping Spree 2018
               </li>
               <div class="divider"></div>
-              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+              <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
                 Developer Shopping Spree 2019
               </li>
               <div class="divider"></div>
-              <li class="waves-effect waves-teal waves-ripple playlist_inner_titles">
+              <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
                 Developer Shopping Spree 2020
               </li>
             </ul>
@@ -764,8 +764,6 @@
 
     </section>
   </div>
-
-
   <!--End of Podcast page-->
 
 
@@ -790,20 +788,105 @@
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe></div>
 
-        <ul class="tabs">
-          <li class="tab col s3 video_name_tab"><a href="#video1" class="active">Docker And Kubernetes</a></li>
-          <li class="tab col s3 video_name_tab"><a href="#video2">Over-Architechure in Software Engineering</a></li>
-          <li class="tab col s3 video_name_tab"><a href="#video3">Docker via Visual Studio for .Net Core</a></li>
-          <li class="tab col s3 video_name_tab"><a href="#video4">Public Properties and Public Variables</a></li>
+        <ul class="tabs video_tabs">
+          <li class="tab col s3 video_name_tab"><a href="#video1" class="active video_a" onclick="switch1()">Docker And
+              Kubernetes</a></li>
+          <li class="tab col s3 video_name_tab"><a href="#video2" onclick="switch2()">Over-Architechure in Software
+              Engineering</a></li>
+          <li class="tab col s3 video_name_tab"><a href="#video3" onclick="switch3()">Docker via Visual Studio for .Net
+              Core</a></li>
+          <li class="tab col s3 video_name_tab"><a href="#video4" onclick="switch4()">Public Properties and Public
+              Variables</a></li>
         </ul>
 
       </section>
-      <!--Bottom Info Section-->
-      <section id="info_section">
+      <!--Right Side Content Section-->
+      <section id="content_section" class="card">
+        <div id="content_1">
+          <h4>Docker and Kubernetes Community Talk</h4>
+          <p class="content_section_p">If you have any thoughts, suggestions, comments, leave them below!</p>
+        </div>
+        <div id="content_2">
+          <h4>Community Talk #1: Over-Architecture</h4>
+          <p class="content_section_p">
+            The Coding Blocks slack has been the best thing to fall out of this crazy podcast that we do. We are
+            constantly humbled,
+            and learning new things from this global community, and it’s high time that we stop hogging the mic!
+          </p>
+          <p class="content_section_p">
+            Huge thank you to all participants, we are really happy with how things have turned out and we are looking
+            forward to
+            more things to come in the future. Big thanks to Andrew and Sean for pushing us to make this happen, and an
+            extra
+            special thanks to Sean for moderating!
+          </p>
+          <p class="content_section_p">
+            We took a lot of inspiration for the format from the Productive Developers Podcast discussions as well, so
+            make sure to
+            check it out if you enjoy this sort of thing: Productivity in Tech on YouTube
+          </p>
+          <p class="content_section_p">
+            So, without further ado – Welcome to the first Coding Blocks Community Talk!
+          </p>
 
+          <ul class="collapsible expandable">
+            <li>
+              <div class="collapsible-header">
+                <i class="large material-icons">question_answer</i>
+                Questions
+              </div>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    What is Over-Architecture?
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    How can you tell if you’re Over-Architecting?
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    How do you deal with someone who is Over-Architecting?
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Is there a better term for Over-Architecture/Over-Architecting?
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Have you ever worked with an over architected code base?
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    What is worse, over or under architected?
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Is over architecting more common with certain languages or environments?
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Is there a correlation between
+                    Over-Architecting and over generalization of a system?
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Is there a happy medium you can achieve by applying YAGNI to your architecture, without breaking
+                    SOLID?
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="content_3">
+          <h4>Lorem Impsum3</h4>
+        </div>
+        <div id="content_4">
+          <h4>Lorem Impsum4</h4>
+        </div>
       </section>
     </div>
-
   </div>
   <!--End of Video Page-->
   <div id="tipsandtricks">Tips and Tricks</div>

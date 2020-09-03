@@ -47,13 +47,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Collapsible
 document.addEventListener("DOMContentLoaded", function () {
-  var elem = document.querySelector(".collapsible.expandable");
+  var elem = document.querySelectorAll(".collapsible.expandable");
   var instance = M.Collapsible.init(elem, {
     accordion: false,
   });
   const options = {
-    inDuration: 200,
-    outDuration: 200,
+    inDuration: 100,
+    outDuration: 100,
   };
 });
 
@@ -74,3 +74,56 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   var instances = M.Tooltip.init(elems, options);
 });
+
+/*------
+VIDEO SECTION Javascript
+-------*/
+
+/*
+initial state: content_1 appears
+*/
+
+/*switch 1*/
+function switch1() {
+  const one = document.getElementById("content_1");
+  one.style.display = "block";
+  const two = document.getElementById("content_2");
+  two.style.display = "none";
+  const three = document.getElementById("content_3");
+  three.style.display = "none";
+  const four = document.getElementById("content_4");
+  four.style.display = "none";
+}
+/*switch 2*/
+function switch2() {
+  const one = document.getElementById("content_1");
+  one.style.display = "none";
+  const two = document.getElementById("content_2");
+  two.style.display = "block";
+  const three = document.getElementById("content_3");
+  three.style.display = "none";
+  const four = document.getElementById("content_4");
+  four.style.display = "none";
+}
+/*switch3*/
+function switch3() {
+  const one = document.getElementById("content_1");
+  one.style.display = "none";
+  const two = document.getElementById("content_2");
+  two.style.display = "none";
+  const three = document.getElementById("content_3");
+  three.style.display = "block";
+  const four = document.getElementById("content_4");
+  four.style.display = "none";
+}
+/*switch4*/
+function switch4() {
+  const one = document.getElementById("content_1");
+  one.style.display = "none";
+  const two = document.getElementById("content_2");
+  two.style.display = "none";
+  const three = document.getElementById("content_3");
+  three.style.display = "none";
+  const four = document.getElementById("content_4");
+  four.style.display = "block";
+}

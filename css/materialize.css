@@ -5647,7 +5647,7 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .waves-effect.waves-yellow .waves-ripple {
-  background-color: rgba(255, 235, 59, 0.7);
+  background-color: rgba(148, 135, 0, 0.7);
 }
 
 .waves-effect.waves-orange .waves-ripple {

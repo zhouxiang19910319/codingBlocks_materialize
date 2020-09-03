@@ -27,3 +27,41 @@ ul {
 li a {
   text-transform: none;
 }
+
+// right side content Section
+#content_1 {
+  // border: 1px solid red;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#content_2 {
+  display: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#content_3 {
+  display: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+#content_4 {
+  display: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.content_section_p {
+  font-size: 1.2rem;
+}
+.content_section_bold {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.content_section_ul {
+  // border: 1px solid red;
+  list-style-type: square;
+}
+.content_section_li {
+  border: 1px solid purple;
+  font-size: 1.2rem;
+  list-style: dot;
+}
