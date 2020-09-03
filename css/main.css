@@ -9751,7 +9751,7 @@ html {
 #videos {
   margin-top: 1rem;
   padding: 3rem 3rem;
-  background-image: url("https://picsum.photos/id/122/4147/2756");
+  background-image: url("../../../img/real_video_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -9809,17 +9809,12 @@ li a {
   font-size: 1.2rem;
 }
 
+.content_section_author {
+  font-size: 1.2rem;
+  color: #bbbbbb;
+}
+
 .content_section_bold {
   font-weight: 700;
   font-size: 1.2rem;
-}
-
-.content_section_ul {
-  list-style-type: square;
-}
-
-.content_section_li {
-  border: 1px solid purple;
-  font-size: 1.2rem;
-  list-style: dot;
 }

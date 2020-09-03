@@ -804,10 +804,12 @@
       <section id="content_section" class="card">
         <div id="content_1">
           <h4>Docker and Kubernetes Community Talk</h4>
+          <p class="content_section_author">August 9, 2018 By Allen Underwood</p>
           <p class="content_section_p">If you have any thoughts, suggestions, comments, leave them below!</p>
         </div>
         <div id="content_2">
           <h4>Community Talk #1: Over-Architecture</h4>
+          <p class="content_section_author">April 23, 2018 By Joe Zack</p>
           <p class="content_section_p">
             The Coding Blocks slack has been the best thing to fall out of this crazy podcast that we do. We are
             constantly humbled,
@@ -829,6 +831,7 @@
             So, without further ado – Welcome to the first Coding Blocks Community Talk!
           </p>
 
+          <!--Questions-->
           <ul class="collapsible expandable">
             <li>
               <div class="collapsible-header">
@@ -878,12 +881,105 @@
               </div>
             </li>
           </ul>
+
+          <!--Panel List-->
+          <ul class="collapsible expandable">
+            <li>
+              <div class="collapsible-header">
+                <i class="large material-icons">list</i>
+                Panelists
+              </div>
+              <div class="collapsible-body">
+                <ul>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Allen Underwood
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Andrew Diamond
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Dave Follett
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    James Studdart
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Joe Zack
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Michael Outlaw
+                  </li>
+                  <div class="divider"></div>
+                  <li class="waves-effect waves-primary waves-ripple playlist_inner_titles">
+                    Sean Martz
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
         </div>
         <div id="content_3">
-          <h4>Lorem Impsum3</h4>
+          <h4>How to work with Docker, Dot Net Core, and Visual Studio</h4>
+          <p class="content_section_author">May 4, 2018 By Joe Zack</p>
+          <p class="content_section_p">
+            When we discussed development workflows on the recent Docker for Developers episode, I mentioned that I had
+            a
+            frustrating time trying to come up with a workflow that I felt comfortable with.
+          </p>
+          <p class="content_section_p">
+            I figured I either had to rebuild my code inside of a container (yuck!) via command line, or kill the
+            container and
+            rebuild it.
+          </p>
+          <p class="content_section_p">
+            It turns out that the second option actually works out pretty well. Docker Compose is smart about only
+            spinning up the
+            items that are necessary, and the Layered Filesystem keeps rebuilds fast.
+          </p>
+          <p class="content_section_p">
+            I finally got around to looking at Visual Studio’s support for docker, and it’s really snazzy! Not only was
+            it a nice,
+            integrated experience, but it was also really easy for me to see how it worked. If only I had started out
+            this way, I
+            could have saved myself some aspirin!
+          </p>
         </div>
         <div id="content_4">
-          <h4>Lorem Impsum4</h4>
+          <h4>Public Properties vs Public Variables – Clean Code the Right Way</h4>
+          <p class="content_section_author">
+            February 26, 2017 By Allen Underwood
+          </p>
+          <div class="content_section_p">
+            In Episode 55, Michael and I got into a conversation about public properties and public variables “looking”
+            the same in
+            C#. For those unfamiliar with the topic or maybe not clear on the difference, I put together a video showing
+            exactly
+            what they are, how they’re different, and why you would choose one over the other. If you have any comments,
+            please do
+            leave the below!
+          </div>
+          <p class="content_section_bold">
+            Tools used in this video
+          </p>
+          <p class="content_section_p">
+            <a href="https://www.visualstudio.com/" target="_blank">Visual Studio</a> 2015 – (2017 is just about to be
+            released) – there are excellent free (community) editions of Visual
+            Studio out there, so there’s no excuse not to get started!
+          </p>
+          <p class="content_section_p">
+            <a href="http://www.jetbrains.com/resharper/" target="_blank">JetBrains ReSharper</a> – one of the best
+            productivity boosting extensions out there for a C# / Visual Studio developer:
+          </p>
+          <p class="content_section_p">
+            <a href="http://ilspy.net/" target="_blank">ILSpy</a> – free, open source and amazing tool for decompiling
+            code as well as see what the IL is for
+            the compiled code:
+          </p>
         </div>
       </section>
     </div>
